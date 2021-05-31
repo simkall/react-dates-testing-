@@ -37,7 +37,7 @@ function App() {
             noBorder
             firstDayOfWeek={1}
             enableOutsideDays={false}
-            isDayBlocked={isOutsideOfRange}
+            isOutsideRange={isOutsideOfRange}
             hideKeyboardShortcutsPanel={true}
             navPrev={<></>}
             navNext={<></>}
